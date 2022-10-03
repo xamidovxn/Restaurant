@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- main css -->
+   <link rel="stylesheet" href="./style/style.css">
+   <title>Restaurant</title>
+
+   <!-- Tinos font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+
+   <!-- Open Sans font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+   <!-- BS icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+   <!-- BS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+   <!-- START HEADER -->
+   <div class="wrapper">
+      <header>
+         <div class="container">
+            <div class="nav d-flex align-items-center">
+               <img src="./images/LOGO.svg" alt="img">
+
+               <ul
+                  class="header__ul d-flex list-unstyled justify-content-between align-items-center py-4 d-xl-flex d-sm-none">
+                  <li><a class="header__link text-decoration-none" href="#">ГЛАВНАЯ</a>
+                  </li>
+                  <li><a class="header__link text-decoration-none" href="#">МЕНЮ</a></li>
+
+                  <li><a class="header__link text-decoration-none" href="#">О НАС</a>
+                  </li>
+                  <li><a class="header__link text-decoration-none" href="#">БРОНЬ</a></li>
+               </ul>
+
+               <img class="d-xl-block d-sm-none nav__img m-1" src="./images/cart.svg" alt="cart">
+
+               <span class="header__span d-xl-block d-sm-none"></span>
+
+               <div class="d-xl-block d-sm-none">
+                  <img src="./images/phone.svg" alt="phone">
+                  <label class="text-light" for="phone" id="phone" name="phone">+999-888-76-54</label>
+                  <p class="me-5 text-light">Свяжитесь с нами для <br> бронирования</p>
+               </div>
+
+               <button class="d-xl-block d-sm-none header__btn text-light">ЗАКАЗ СТОЛИКА</button>
+
+               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#FF7400"
+                  class="menu d-sm-block d-md-none bi bi-lst" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+               </svg>
+            </div>
+      </header>
+
+      <!-- END HEADER -->
+
+   </div>
+   <!-- START MAIN -->
+   <main>
+      <section class="intro">
+         <div class="container">
+            <p class="main__title ps-4">Добро пожаловать в</p>
+            <p class="span__title">Наш ресторан</p>
+
+            <div class="span__div d-flex align-items-center">
+
+               <span class="line bg-light">
+               </span>
+               <p class="h6 mx-3 text-light">ДОМ ЛУЧШЕЙ ЕДЫ</p>
+               <span class="line bg-light">
+               </span>
+
+            </div>
+
+            <button class="menu__btn text-light">VIEW MENU</button>
+
+         </div>
+      </section>
+
+
+      <div class="container">
+         <div class="card__div">
+            <div class="row gap-4 text-center">
+               <div class="mask col-xl-3 col-sm-6 mx-auto shadow-lg">
+                  <img src="./images/Mask-Group.svg" alt="image">
+                  <p class="card__p ps-4">Магическая <span>Атмосфера</span></p>
+                  <p class="card__parograph">В нашем заведении царит магическая атмосфера
+                     наполненная вкусными <br> ароматами</p>
+               </div>
+
+               <div class="mask col-xl-3 col-sm-6 mx-auto shadow-lg">
+                  <img src="./images/Mask-Group.svg" alt="image">
+                  <p class="card__p">Лучшее качество <span>Еды</span></p>
+                  <p class="card__parograph">Качество нашей <br> Еды - отменное!</p>
+               </div>
+
+               <div class="mask col-xl-3 col-sm-6 mx-auto shadow-lg">
+                  <img src="./images/Mask-Group.svg" alt="image">
+                  <p class="card__p">Недорогая <span class="">Еда</span> </p>
+                  <p class="card__parograph">Стоимость нашей Еды
+                     <br> зависит только от ее <br>
+                     количества. Качество <br>
+                     всегда на высоте!
+                  </p>
+               </div>
+            </div>
+         </div>
+
+         <section>
+            <div class="row">
+               <div class="col-xl-6">
+                  <p class="section__title  ms-5">Наша <span class="section__title-span">История</span></p>
+                  <p class="section__p text-center ms-xl-5">Как и у любого другого самобытного места, у нас есть своя, особая
+                     история. Идея ресторана пришла
+                     основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях
+                     километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя
+                     обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+
+                  <span class="stories__div row gap-5 text-center ms-5">
+
+                     <div class="section__juice col-xl-2">93 <p class="section__juice-num">Напитки</p>
+                     </div>
+
+                     <div class="section__juice col-xl-2">206 <p class="section__juice-num">Еда</p>
+                     </div>
+
+                     <div class="section__juice col-xl-2">71 <p class="section__juice-num">Закуски</p>
+                     </div>
+
+                  </span>
+               </div>
+
+               <div class="col-xl-6">
+                  <img class="stories__img" src="./images/images.jpg" alt="image">
+               </div>
+
+            </div>
+         </section>
+      </div>
+
+      <section class="table p-5 mt-5">
+         <div class="container">
+            <div class="d-flex justify-content-between align-items-center ">
+               <div>
+                  <h3 class="table__title">Отпразднуйте в одном из <br> самых лучших ресторанов.</h3>
+                  <p class="text-light">Только в этом месяце бизнес-ланч от 250 ₽</p>
+               </div>
+
+               <div>
+                  <button class="table__btn text-light">ЗАКАЗ СТОЛИКА</button>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container dishes__div">
+            <h2 class="dishes__title text-center">Наши <span class="dishes__span">Блюда</span></h2>
+
+            <div class="dishes__div d-flex">
+
+               <div>
+                  <img src="./images/pizza.svg" alt="img">
+               </div>
+
+               <div class="garburger__div ms-5">
+
+                  <div class="d-flex align-items-center">
+                     <img class="d-flex mb-4" src="./images/hamburger.svg" alt="img">
+                     <p class="ms-4">Гамбургер мини ------------------------------ <span>200 <img
+                              src="./images/kupyura.svg" alt="img"></span>
+                     </p>
+                  </div>
+
+                  <div class="d-flex align-items-center">
+                     <img class="d-flex mb-4" src="./images/hamburger.svg" alt="img">
+                     <p class="ms-4">Гамбургер мини ------------------------------ <span>200 <img
+                              src="./images/kupyura.svg" alt="img"></span>
+                     </p>
+                  </div>
+
+                  <div class="d-flex align-items-center">
+                     <img class="d-flex mb-4" src="./images/hamburger.svg" alt="img">
+                     <p class="ms-4">Гамбургер мини ------------------------------ <span>200 <img
+                              src="./images/kupyura.svg" alt="img"></span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="hamburger__section w-sm-25">
+         <div class="container">
+
+            <div class="row gap-3 d-flex justify-content-around ">
+               <h2 class="text-center text-light pt-5">Наше меню</h2>
+
+               <div class="hamburger__card p-4 pt-5 mt-5 col-xl-3 d-sm-none d-xl-block">
+                  <img src="./images/hamburger-second.svg" alt="img">
+                  <h3 class="hamburger__title">Гамбургер макси</h3>
+                  <p class="hamburger__p">Максимально толстый
+                     слой мяса</p>
+                  <button class="hamburger__btn text-light border-0">ЗАКАЗАТЬ</button>
+               </div>
+
+               <div class="hamburger__card p-4 pt-5 mt-5 col-xl-3 d-sm-none d-xl-block">
+                  <img src="./images/hamburger-second.svg" alt="img">
+                  <h3 class="hamburger__title">Гамбургер макси</h3>
+                  <p class="hamburger__p">Максимально толстый
+                     слой мяса</p>
+                  <button class="hamburger__btn text-light border-0">ЗАКАЗАТЬ</button>
+               </div>
+
+               <div class="hamburger__card pt-5 p-4 mt-5 col-xl-3 col-sm-6">
+                  <img src="./images/hamburger-second.svg" alt="img">
+                  <h3 class="hamburger__title m-sm-3 m-xl-0">Гамбургер макси</h3>
+                  <p class="hamburger__p">Максимально толстый
+                     слой мяса</p>
+                  <button class="hamburger__btn text-light border-0">ЗАКАЗАТЬ</button>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <section class="section__nikolay text-center">
+         <div class="container">
+            <p class="nikolay__title mx-auto">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек
+               родной Армении!!! Отдельное
+               спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+               родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+         </div>
+
+         <div>
+            <img class="d-block mx-auto pt-2 pb-2" src="./images/nikolay.svg" alt="img">
+            <b>Посетитель</b>
+            <blockquote>Николай</blockquote>
+
+            <div style="margin-bottom: 100px;">
+               <img style="margin-bottom: 100px;" src="./images/Ellipse-silver.svg" alt="img">
+               <img style="margin-bottom: 100px;" src="./images/Ellipse-silver.svg" alt="img">
+               <img style="margin-bottom: 100px;" src="./images/Ellipse.svg" alt="img">
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+            <div class="galereya__div">
+               <h2 class="text-center">Галерея <span style="color: #D67E35;">Блюд</span></h2>
+            </div>
+
+            <div>
+               <div class="row w-sm-50" style="margin-top: 60px;">
+                  <div class="col">
+                     <img src="./images/dishes.svg" alt="img">
+                  </div>
+
+                  <div class="col">
+                     <img src="./images/cup.svg" alt="img">
+                  </div>
+
+                  <div class="col">
+                     <img src="./images/soup.svg" alt="img">
+                  </div>
+
+               </div>
+
+               <div>
+                  <div class="row mt-4">
+                     <div class="col-xl-3">
+                        <img src="./images/soup.svg" alt="img">
+                     </div>
+
+                     <div class="col-xl-3">
+                        <img src="./images/cup.svg" alt="img">
+                     </div>
+
+                     <div class="col-xl-5">
+                        <img src="./images/dishes.svg" alt="img">
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section>
+         <div class="container">
+            <h2 class="text-center" style="margin-top: 100px;">Наши <span style="color: #FF7400;">Повара</span></h2>
+
+            <div class="d-flex justify-content-between" style="margin-top: 107px;">
+               <div>
+                  <img src="./images/first-chef.jpg" alt="img">
+               </div>
+               
+               <div>
+                  <img src="./images/second-chef.jpg" alt="img">
+               </div>
+               
+               <div>
+                  <img src="./images/third-chef.jpg" alt="img">
+               </div>
+            </div>
+
+         </div>
+      </section>
+   </main>
+
+   <!-- END MAIN -->
+
+   <!-- START FOOTER -->
+   <footer style="width: 100%; height: 500px; margin-top: 80px; background-image: url(./images/footer-bg.jpg); ">
+
+   </footer>
+   <!-- END FOOTER -->
+
+
+</body>
+
+</html>

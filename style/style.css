@@ -1,0 +1,300 @@
+:root {
+   --link__color: #fff;
+   --link__hover: rgb(116, 110, 110);
+   --btn__color: #FF7400;
+   --btn__hover: #ff73005f;
+   --btn__active: #FF7400;
+   --text__color: #D67E35;
+   --card__color: #BC9060;
+   --hamburger__btn: #D67E34;
+}
+
+header {
+   padding: 15px 0;
+}
+
+.wrapper {
+   background-image: url(../../images/hero-image.jpg);
+}
+
+.header__ul {
+   width: 300px;
+   margin-left: 210px;
+}
+
+.header__link {
+   color: var(--link__color);
+}
+
+.header__link:hover {
+   color: var(--link__hover);
+}
+
+.header__link:active {
+   color: var(--link__color);
+}
+
+.nav__img {
+   padding: 0 36px;
+}
+
+.header__span {
+   width: 2px;
+   height: 60px;
+   margin: 0 36px 0 0;
+   background-color: white;
+}
+
+.header__btn {
+   width: 157px;
+   height: 47px;
+   border: none;
+   background-color: var(--btn__color);
+}
+
+.header__btn:hover {
+   background-color: var(--btn__hover);
+   border: 1px #FF7400 solid;
+}
+
+.header__btn:active {
+   border: 1px #4d2403 solid;
+   background-color: var(--btn__active);
+}
+
+.intro {
+   background-image: url(../images/hero-image.jpg);
+}
+
+.menu {
+   margin-left: 370px;
+}
+
+.main__title {
+   padding-top: 260px;
+   font-size: 50px;
+   color: var(--text__color);
+   font-family: 'Tinos', serif;
+
+}
+
+.span__title {
+   font-size: 80px;
+   color: var(--text__color);
+   font-family: 'Tinos', serif;
+}
+
+.intro p {
+   font-family: 'Tinos';
+}
+
+.card__p {
+   padding-left: 25px;
+}
+
+.card__div span {
+   color: var(--card__color);
+   font-family: 'Tinos';
+}
+
+.card__parograph {
+   color: var(--link__hover);
+}
+
+.line {
+   width: 61px;
+   height: 2px;
+}
+
+.span__div {
+   margin-left: 90px;
+}
+
+.mask {
+   background-color: #fff;
+}
+
+.card__div {
+   position: relative;
+   margin-top: -100px;
+}
+
+.menu__btn {
+   width: 157px;
+   height: 47px;
+   border: none;
+   margin: 21px 0 150px 170px;
+   background-color: var(--btn__color);
+   font-family: 'Open Sans';
+}
+
+.menu__btn:hover {
+   background-color: var(--btn__hover);
+}
+
+.menu__btn:active {
+   background-color: var(--active);
+   border: 1px #FF7400 solid;
+}
+
+/* ================= SECTION START ================= */
+
+.section__title {
+   font-size: 54px;
+   margin-top: 166px;
+   font-family: 'Tinos';
+}
+
+.section__title-span {
+   color: var(--text__color);
+}
+
+.section__p {
+   width: 444px;
+   font-family: 'Open Sans';
+}
+
+.section__juice {
+   color: var(--text__color);
+   font-size: 40px;
+}
+
+.section__juice-num {
+   color: #000;
+   font-size: 20px;
+}
+
+.stories__div {
+   padding-top: 100px;
+}
+
+.stories__img {
+   position: relative;
+   padding-top: 160px;
+}
+
+/* ================= SECTION END ================= */
+
+
+/* ================= SECTION START ================= */
+
+.table {
+   background-image: url(../images/bg.jpg);
+}
+
+.table__title {
+   color: var(--text__color);
+}
+
+.table__btn {
+   width: 157px;
+   height: 47px;
+   border: none;
+   background-color: var(--btn__color);
+}
+
+.table__btn:hover {
+   background-color: var(--btn__hover);
+   border: 1px #FF7400 solid;
+}
+
+.table__btn:active {
+   border: 1px #4d2403 solid;
+   background-color: var(--btn__active);
+}
+
+/* ================= SECTION END ================= */
+
+
+/* ================= SECTION START ================= */
+
+.garburger__div {
+   font-family: 'Tinos';
+}
+
+.dishes__div {
+   margin-top: 136px;
+}
+
+.dishes__title {
+   margin-top: 132px;
+   font-size: 54px;
+   font-family: 'Tinos';
+}
+
+.dishes__span {
+   color: var(--text__color);
+}
+
+
+
+/* ================= SECTION END ================= */
+
+
+/* ================= SECTION START ================= */
+
+.hamburger__section {
+   background-image: url(../images/menu-bg.jpg);
+}
+
+.hamburger__card {
+   margin-bottom: 150px;
+   background-color: white;
+}
+
+.hamburger__title {
+   font-family: 'Tinos';
+}
+
+.hamburger__p {
+   text-align: center;
+   width: 210px;
+   font-family: 'Open Sans';
+}
+
+.hamburger__btn {
+   width: 220px;
+   height: 50px;
+   background-color: var(--hamburger__btn);
+}
+
+
+.hamburger__btn:hover {
+   background-color: var(--btn__hover);
+   border: 1px #FF7400 solid;
+}
+
+.hamburger__btn:active {
+   border: 1px #4d2403 solid;
+   background-color: var(--btn__active);
+}
+
+/* ================= SECTION END ================= */
+
+
+/* ================= SECTION START ================= */
+
+.section__nikolay {
+   padding: 100px 0 0 0;
+   background-color: #E5E5E5;
+}
+
+.nikolay__title {
+   width: 931px;
+}
+
+
+/* ================= SECTION END ================= */
+
+
+/* ================= SECTION START ================= */
+
+.galereya__div {
+   margin-top: 101px;
+}
+
+
+
+
+
+/* ================= SECTION END ================= */
