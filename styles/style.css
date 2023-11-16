@@ -1,0 +1,976 @@
+* *::before *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* ---------------- NAVBAR START ---------------------- */
+
+.header {
+    padding: 50px 0 0 140px;
+    height: 800px;
+    background-image: url('../assets/images/header.png');
+}
+
+.nav__div {
+    width: 50%;
+}
+
+.header__ul {
+    margin: 0 0 0 150px;
+    width: 100%;
+}
+
+.header__ancer {
+    color: #fff;
+    text-decoration: none;
+}
+
+.shop {
+    padding: 0 15px 0 34px;
+    color: #fff;
+}
+
+.bi:hover {
+    color: rgb(60, 60, 248);
+}
+
+.vl {
+    border-left: 1px solid #fff;
+    height: 51px;
+}
+
+.phone__icon {
+    color: #fff;
+    margin: -30px 5px 0 15px;
+}
+
+.nav__link {
+    width: 60%;
+    margin: -29px -100px 0 0;
+}
+
+.nav__phone--link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__num {
+    bottom: 4px;
+    position: absolute;
+    color: #fff;
+}
+
+.nav__text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: -20px;
+}
+
+.nav__btn {
+    width: 157px;
+    height: 47px;
+    color: #FFF;
+    font-size: 14px;
+    background: #FF7400;
+    margin: 20px 0 0 100px;
+    border: none;
+
+}
+
+.nav__btn:active {
+    background: #ff73009c;
+}
+
+.menu {
+    display: none;
+}
+
+/* ---------------- NAVBAR END ---------------------- */
+
+
+/* ---------------- SIDEBAR START ---------------------- */
+
+.sidebar {
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 12px 15px;
+    background: #FF7400;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 0.25s;
+}
+
+.sidebar__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar__ul {
+    padding: 0;
+}
+
+/* ---------------- SIDEBAR END ---------------------- */
+
+
+
+/* ---------------- HEADER START ---------------------- */
+
+.head__title {
+    color: #D67E35;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0 0 0 25px;
+    padding: 120px 0 0 0;
+}
+
+.head__tittle {
+    color: #D67E35;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.food__div {
+    width: 25%;
+    margin: 0 0 0 110px;
+    color: #fff;
+}
+
+.food__text {
+    margin: 3px 0 0 0;
+}
+
+.hr {
+    width: 61px;
+    height: 1px;
+    background: #fff;
+}
+
+.menu__btn {
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    margin: 35px 0 0 185px;
+}
+
+.menu__btn:active {
+    background: #ff73009c;
+}
+
+.menu__btn--sm {
+    display: none;
+}
+
+.head__card {
+    width: 349px;
+    height: 328px;
+    margin: 0 31px 0 0;
+    background: #fff;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+}
+
+.head__card:hover {
+    transform: translateY(-9px);
+    transition: all 0.5s;
+}
+
+.cards__div {
+    display: flex;
+    align-items: center;
+    margin: 124px 100px 0 0;
+}
+
+.card__img {
+    margin: 35px 109px 0 114px;
+}
+
+.card__title {
+    color: #2C2C2C;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card__span {
+    color: #BC9060;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card__text {
+    color: #656363;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* ---------------- HEADER END ---------------------- */
+
+
+/* ---------------- HISTORY SECTION START ---------------------- */
+
+.history__div {
+    padding: 450px 0 0 0;
+}
+
+.history__title {
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.history__span {
+    color: #D67E34;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.history__text {
+    margin: 21px 0 0 0;
+    color: #656363;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.history__num--servises {
+    margin: 70px 0 0 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history__num {
+    color: #BC9060;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.history__menu {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mphone {
+    display: none;
+}
+
+.history__img--pink {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+.history__img--cake {
+    position: absolute;
+    right: 80px;
+}
+
+.history__img--kitchen {
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+.history__img--honey {
+    position: absolute;
+    top: 30px;
+    right: 240px;
+}
+
+/* ---------------- HISTORY SECTION END ---------------------- */
+
+
+/* ---------------- BUSINESS SECTION START ---------------------- */
+
+.business {
+    height: 357px;
+    background-image: url('../assets/images/stolBG.png');
+    margin: 250px 0 0 0;
+}
+
+.business__title {
+    color: #ff7700;
+    font-size: 52px;
+    padding: 80px 0 0 65px;
+}
+
+.business__text {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 0 65px;
+}
+
+.business__btn {
+    width: 157px;
+    height: 47px;
+    background: #ff7300;
+    color: #fff;
+    border: none;
+    margin: 100px 0 0 0;
+}
+
+.business__btn:active {
+    background: #ff73009c;
+}
+
+/* ---------------- BUSINESS SECTION END ---------------------- */
+
+
+/* ---------------- OUR SECTION START ---------------------- */
+
+.section__our {
+    margin: 132px 0 0 0;
+}
+
+.our__title {
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+    margin: 0 0 139px 0;
+}
+
+.our__span {
+    color: #D67E34;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.hamburger__text {
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.our__div {
+    display: flex;
+    align-items: center;
+    margin: 27px 0 0 0;
+}
+
+.our__img--sm {
+    display: none;
+}
+
+/* ---------------- OUR SECTION END ---------------------- */
+
+
+
+/* ---------------- HAMBURGER SECTION START ---------------------- */
+
+.section__hamburger {
+    margin: 154px 0 0 0;
+    height: 1034px;
+    background-image: url('../assets/images/bar.png');
+}
+
+.hamburger__title {
+    padding: 98px 0 138px 0;
+    color: #FFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.hamburger__row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.hamburger__div {
+    min-width: 350px;
+    height: 510px;
+    background: #fff;
+}
+
+.hamburger__div--second {
+    margin: 42px 0 0 0;
+}
+
+.hamburger__span {
+    width: 150px;
+    height: 42px;
+    display: inline-block;
+    background: #D67E34;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger__img {
+    padding: 44px 0 0 38px;
+}
+
+.vector {
+    padding: 0 10px 0 0;
+}
+
+.maxi__title {
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 16px 0 17px 0;
+}
+
+.maxi__text {
+    width: 200px;
+    height: 37px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px 50px;
+}
+
+.btn__maxi {
+    width: 220px;
+    height: 50px;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn__maxi:active {
+    background: #ff73009c;
+}
+
+.guest__div {
+    width: 100%;
+    height: 550px;
+    background: #E5E5E5;
+    padding: 104px 0 0 0;
+}
+
+.guest__text {
+    width: 850px;
+    height: 52px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 0 200px;
+}
+
+.guest__img {
+    margin: 90px 0 0 0;
+}
+
+.guest__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.guest__name {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.guest__ellipse {
+    margin: 25px 5px 0 0;
+}
+
+/* ---------------- HAMBURGER SECTION END ---------------------- */
+
+
+/* ---------------- GALLERY SECTION START ---------------------- */
+
+.gallery__div--sm {
+    display: none;
+}
+
+.gallery__section {
+    padding: 450px 0 0 0;
+}
+
+.gallery__title {
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+    padding: 0 0 107px 0;
+}
+
+.gallery__span {
+    color: #D67E34;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.gallery__div {
+    padding: 0 0 0 70px;
+}
+
+.gallery__div--second {
+    margin: 0 0 0 -50px;
+}
+
+.gallery__img--coffee {
+    margin: 30px 0 0 0;
+}
+
+.gallery__img--soup {
+    margin: 30px 0 0 25px;
+}
+
+.gallery__img--coffee-second {
+    margin: 0 0 0 3px;
+}
+
+.gallery__img--soup-second {
+    margin: 0 0 0 25px;
+}
+
+.gallery__img--cups-second {
+    margin: 30px 0 0 0;
+}
+
+
+/* ---------------- GALLERY SECTION END ---------------------- */
+
+
+/* ---------------- CHEFS SECTION START ---------------------- */
+
+.chefs__div {
+    padding: 107px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.chefs__title {
+    color: #000;
+    font-size: 54px;
+    font-weight: 400;
+    margin: 100px 0 0 0;
+}
+
+.chefs__span {
+    color: #D67E34;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.chefs__img {
+    margin: 0 0 0 37px;
+}
+
+/* ---------------- CHEFS SECTION END ---------------------- */
+
+
+/* ---------------- FOOTER SECTION START ---------------------- */
+
+.footer {
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------- FOOTER SECTION END ---------------------- */
+
+/* ---------------- RESPONSIVE ---------------------- */
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phone */
+
+    .hide {
+        transform: translateX(-10px);
+        opacity: 1;
+    }
+
+    .header {
+        width: 320px;
+        padding: 20px 28px;
+        height: 800px;
+        background-image: url(../assets/images/bg-mphone.svg);
+        margin: 0 0 0 -12px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .nav__div {
+        visibility: collapse;
+    }
+
+    .nav__btn {
+        display: none;
+    }
+
+    .head__title {
+        font-size: 30px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .head__tittle {
+        font-size: 40px;
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .food__div {
+        width: 100%;
+        margin: 0 0 0 70px;
+    }
+
+    .food__text {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .menu__btn {
+        display: none;
+    }
+
+    .menu__btn--sm {
+        width: 137px;
+        height: 47px;
+        background: #FF7400;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        display: block;
+        margin: 30px 0 0 72px;
+    }
+
+    .menu__btn--sm:active {
+        background: #ff73009c;
+    }
+
+    .cards__div {
+        display: block;
+        margin: 202px 0 0 -20px;
+
+    }
+
+    .head__card {
+        width: 300px;
+        height: 276px;
+        margin: 14px 0 0 0;
+    }
+
+    .card__img {
+        margin: 0 109px 0 114px;
+    }
+
+    .card__title {
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .card__text {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+
+    .history__div {
+        padding: 900px 0 0 0;
+    }
+
+    .history__title {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .history__span {
+        font-size: 40px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .history__text {
+        width: 290px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 48px 0 0 6px;
+    }
+
+    .history__num--servises {
+        display: block;
+        text-align: center;
+    }
+
+    .history__num--div {
+        margin: 22px 0 0 0;
+    }
+
+    .history__img--pink {
+        display: none;
+    }
+
+    .history__img--cake {
+        display: none;
+    }
+
+    .history__img--kitchen {
+        display: none;
+    }
+
+    .history__img--honey {
+        display: none;
+    }
+
+    .mphone {
+        display: block;
+        padding: 45px 0 0 0;
+    }
+
+    .pinkImg__sm {
+        top: 62px;
+        right: 32px;
+        left: 168px;
+    }
+
+    .cake__sm {
+        top: 45px;
+        right: 65px;
+        left: 117px;
+    }
+
+    .kitchen__img {
+        top: 110px;
+        right: 15px;
+        left: 175px;
+    }
+
+    .honey__sm {
+        top: 30px;
+        right: 179px;
+        left: 10px;
+    }
+
+    .business {
+        margin: 270px 0 0 0;
+    }
+
+    .business__title {
+        width: 290px;
+        height: 136px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 20px 0;
+    }
+
+    .business__text {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 0;
+    }
+
+    .business__btn {
+        width: 139px;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 53px 0 0 0;
+    }
+
+    .our__title {
+        width: 176px;
+        color: #000;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 0 0 0 95px;
+    }
+
+    .our__span {
+        font-size: 42px;
+        font-weight: 400;
+    }
+
+    .our__img {
+        display: none;
+    }
+
+
+    .our__img--sm {
+        width: 320px;
+        height: 478px;
+        display: block;
+        margin: 0 0 0 -13px;
+    }
+
+    .vector {
+        display: none;
+    }
+
+    .hamburger__svg {
+        width: 130px;
+    }
+
+    .hamburger__text--div {
+        width: 200px;
+    }
+
+    .hamburger__text {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 20px 5px;
+        width: 300px;
+    }
+
+    .our__price {
+        position: relative;
+        top: 60px;
+        right: 135px;
+        width: 100px;
+        color: #000;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .flex {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .our__div {
+        align-items: flex-start;
+    }
+
+    .none__sm {
+        display: none;
+    }
+
+    .section__hamburger {
+        margin: 0 0 0 -12px;
+        width: 320px;
+        height: 900px;
+    }
+
+    .hamburger__title {
+        padding: 60px 0 98px 0;
+        font-size: 54px;
+        font-weight: 400;
+    }
+
+    .hamburger__div {
+        min-width: 290px;
+        margin: 0 0 0 10px;
+        height: 510px;
+    }
+
+    .hamburger__img {
+        padding: 48px 0 0 30px;
+    }
+
+    .maxi__title {
+        margin: 12px 0 0 0;
+    }
+
+    .maxi__text {
+        margin: 21px 0 0 45px;
+    }
+
+    .btn__maxi {
+        margin: 20px 0 0 0;
+    }
+
+    .guest__text {
+        width: 290px;
+        height: 250px;
+        font-size: 20px;
+        font-weight: 400;
+        margin: -90px 0 0 15px;
+    }
+
+    .guest__img {
+        padding: 10px 0 0 0;
+    }
+
+    .guest__div {
+        margin: 106px 0 0 0;
+        height: 620px;
+    }
+
+    .gallery__section {
+        padding: 621px 0 0 0;
+    }
+
+    .gallery__title {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .gallery__span {
+        display: block;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .gallery__div--sm {
+        display: block;
+    }
+
+    .gallery__sm--imgs {
+        margin: 17px 0 0 4px;
+    }
+
+    .chefs__div {
+        display: block;
+    }
+
+    .chefs__title {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .chefs__span {
+        font-size: 40px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .chefs__img {
+        width: 288px;
+        height: 380px;
+        margin: 17px 0 0 0;
+    }
+
+    .footer {
+        width: 290PX;
+        height: 708px;
+    }
+
+}
